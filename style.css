@@ -1,0 +1,256 @@
+body{   
+       display: block;
+       text-decoration: none;
+       padding-right: 10px;
+       padding-top: 10px;
+       color: rgb(14, 15, 15);
+       font-size: 15px;
+       left: 0;
+       right: 0;
+    }
+    @media (max-width: 768px){
+        .container{
+            width: 95%;
+            flex-direction: column;
+        }
+        .box{
+            width: 100%;
+            font-size: 16px;
+        }
+        h1{
+            font-size: 24px;
+        }
+    }
+    nav .logo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    nav .logo img{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid;
+    }
+    nav .logo span{
+        color: white;
+        font-size: 20px;
+        margin-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .home-content-1{
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(240, 231, 220);
+    padding: 0 20px;
+    margin-top: 100px;
+ 
+    line-height: 1.6;
+ } 
+    #content-1{
+       margin: 0;
+        padding: 0;
+        color:rgb(14, 13, 13);
+        font-size: 30px;
+        background-position: 50px;
+        background-color:rgb(247, 236, 221);
+    } 
+        
+    
+  .content-box{
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(240, 231, 220);
+    padding: 0 20px;
+    line-height: 1.6;
+  }  
+
+    
+    header{
+        background-color: aquamarine;
+        text-align: center;
+        height: 130px;
+        width: 100px;
+        position: fixed;
+        top: 0;
+        border-radius: 20px;
+        padding-top: 0%;
+    }
+    
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 80px;
+    padding: 60px 20px;
+    min-height: 500px;
+}
+    
+    #home,#about,#hobby, #services, #contact{
+        scroll-margin-top: 120px;
+    }
+    /*===NAVBAR===*/
+    nav{
+        
+        width: 100%;
+        margin: 0;
+        right: 0;
+        left: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 40px;
+        box-sizing: border-box;
+        background-color: rgb(45, 155, 136);
+        display: flex;
+        position:fixed;
+        top: 0;
+        z-index: 1000;
+        
+    } 
+        
+        nav ul{
+            display :flex;
+            gap :2rem;
+            list-style: none;
+            align-items: center;
+            margin-left: auto;
+        }
+    
+    #nav links{
+        display: flex;
+       text-decoration: none;
+        color:white;
+  
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+    
+    #nav-links a{
+        color: white;
+        transition: 0.3s;
+        
+        
+        padding: 8px 12px;
+       
+    
+    #nav-link a:hover{
+        font-size: 12px;
+        background-color: black;
+        padding-top: 30px;
+        left: 0;
+    }
+    
+
+    
+ 
+    
+   
+    
+    
+    #content-2{
+        padding: 0 20px;
+        max-width: 800px;
+        font-size: 28px;
+        background: antiquewhite;
+    
+   
+        color:black;
+        
+        border-radius: 10px;
+        border-style: solid;
+
+       
+       margin: 0;
+       padding: 0;
+
+    }
+
+    #head{
+        background-color: rgb(53, 107, 107);
+        align-items: center;
+        text-align: center;
+        color: rgb(228, 228, 247);
+        right: 0;
+        left: 0;
+        font-weight: bold;
+        height: 95px;
+        width: 100%;
+        padding:15px ;
+    }
+    
+    #container{
+        
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        align-items: center;
+
+        
+    }
+    
+    #content-3{
+         background-color:rgb(126, 155, 164);
+         width: 60%;
+         padding: 10px;
+         margin-left: 18%;
+         margin-top: 95px;
+         padding-top: 15px;
+         color: black;
+         border-radius: 15px;
+        
+         border: none;
+         border-top: 8px solid rgb(3, 3, 40);
+
+    }
+    
+    .content-4{
+        text-align: center;
+        margin: 0px;
+        background: rgb(167, 248, 248);
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        background: brown;
+        color: white;
+        gap: 20px;
+    }
+    .services{
+        text-align: center;
+    }
+    .card{
+        background-color: brown;
+        color: bisque;
+        padding: 20px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    
+}
+    #footer{
+        background-color:rgb(45, 155,136);
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        top: 80%;
+        height: 130px;
+        width: 100%;
+        margin-top: 10%;
+        padding-top: 3%;
+        left: 0;
+        right:0;
+      }
+
